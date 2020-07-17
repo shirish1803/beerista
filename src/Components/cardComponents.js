@@ -32,7 +32,7 @@ class Cardd extends Component {
                                     <CardImg id='img' className="offset-3 offset-md-3" src={item.fields.Attachments[0].url} />
                                     <CardBody className="cardBody">
                                         <CardTitle className="d-flex justify-content-center">{item.fields.Name}</CardTitle>
-                                        <CardText style={{fontSize:'14px'}}>{item.fields.Description}</CardText>
+                                        <CardText className="cardtext" style={{fontSize:'14px'}}>{item.fields.Description}</CardText>
                                     </CardBody>
                                     <Button className="cardButton divbutton">Get the Details  </Button>
                                     
